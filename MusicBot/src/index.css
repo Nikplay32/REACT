@@ -1,3 +1,11 @@
+.container {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
@@ -54,8 +62,7 @@ h2 {
   max-width: 1240px;
   margin: auto;
   height: 100%;
-  position: absolute;
-  right: 0;
+  position: relative;
 }
 
 button {
@@ -76,7 +83,6 @@ button:hover {
   border: 1px solid #47dcff;
 }
 
-
 @media screen and (max-width: 940px) {
   h1 {
     font-size: 3rem;
@@ -86,11 +92,3 @@ button:hover {
     font-size: 2.5rem;
   }
 }
-
-
-
-
-
-
-
-
